@@ -58,9 +58,9 @@ def main():
                         help='data directory')
     parser.add_argument('--vgg-dir', default='vgg_graph',
                         help='directory for the VGG-16 model')
-    parser.add_argument('--epochs', type=int, default=200,
+    parser.add_argument('--epochs', type=int, default=5,
                         help='number of training epochs')
-    parser.add_argument('--batch-size', type=int, default=8,
+    parser.add_argument('--batch-size', type=int, default=20,
                         help='batch size')
     parser.add_argument('--tensorboard-dir', default="tb",
                         help='name of the tensorboard data directory')
